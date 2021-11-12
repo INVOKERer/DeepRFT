@@ -9,7 +9,7 @@
 ## Network Architecture
 <table>
   <tr>
-    <td> <img src = "https://github.com/INVOKERer/DeepRFT/blob/main/images/framework.png" width="900"> </td>
+    <td> <img src = "https://github.com/INVOKERer/DeepRFT/blob/main/images/framework.png" width="1200"> </td>
   </tr>
   <tr>
     <td><p align="center"><b>Overall Framework of DeepRFT</b></p></td>
@@ -52,7 +52,7 @@ Experiment for image deblurring.
 
 <table>
   <tr>
-    <td> <img src = "https://github.com/INVOKERer/DeepRFT/blob/main/images/psnr_params_flops.png" width="900"> </td>
+    <td> <img src = "https://github.com/INVOKERer/DeepRFT/blob/main/images/psnr_params_flops.png" width="1200"> </td>
   </tr>
   <tr>
     <td><p align="center"><b>Deblurring on GoPro Datasets.</b></p></td>
