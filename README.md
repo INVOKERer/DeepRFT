@@ -1,4 +1,3 @@
-# Offical Pytorch Implementation for
 # Deep Residual Fourier Transformation for Single Image Deblurring
 
 
