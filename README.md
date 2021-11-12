@@ -1,4 +1,5 @@
-# Deep Residual Fourier Transformation for Single Image Deblurring ()
+# DeepRFT-Offical Pytorch Implementation
+# Deep Residual Fourier Transformation for Single Image Deblurring
 
 
 **Paper**: 
