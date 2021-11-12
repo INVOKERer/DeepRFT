@@ -17,7 +17,7 @@
 </table>
 
 ## Installation
-The model is built in PyTorch 1.8.0 and tested on Ubuntu 16.04 environment (Python3.8, CUDA11.1).
+The model is built in PyTorch 1.8.0 and tested on Ubuntu 18.04 environment (Python3.8, CUDA11.1).
 
 For installing, follow these intructions
 ```
