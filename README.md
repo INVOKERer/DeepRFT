@@ -9,10 +9,10 @@
 ## Network Architecture
 <table>
   <tr>
-    <td> <img src = "https://github.com/INVOKERer/DeepRFT/blob/main/images/framework.png" width="500"> </td>
+    <td> <img src = "https://github.com/INVOKERer/DeepRFT/blob/main/images/framework.png" width="800"> </td>
   </tr>
   <tr>
-    <td><p align="center"><b>Overall Framework of FMIMOUNet</b></p></td>
+    <td><p align="center"><b>Overall Framework of DeepRFT</b></p></td>
   </tr>
 </table>
 
