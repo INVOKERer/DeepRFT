@@ -24,7 +24,7 @@ For installing, follow these intructions
 conda create -n pytorch python=3.8
 conda activate pytorch
 conda install pytorch==1.8.0 torchvision==0.9.0 torchaudio==0.8.0 cudatoolkit=11.1 -c pytorch -c conda-forge
-pip install matplotlib scikit-image opencv-python yacs joblib natsort h5py tqdm kornia
+pip install matplotlib scikit-image opencv-python yacs joblib natsort h5py tqdm kornia ptflops
 ```
 
 Install warmup scheduler
