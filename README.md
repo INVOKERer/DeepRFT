@@ -6,7 +6,7 @@ Xintian Mao, Yiming Liu, Wei Shen, Qingli Li and Yan Wang
 **Paper**: 
 
 
-> **Abstract:** *It has been a common practice to adopt the ResBlock, which learns the difference between blurry and sharp image pairs, in end-to-end image deblurring architectures. Reconstructing a sharp image from its blurry counterpart requires changes regarding both low- and high-frequency information. Although conventional ResBlock may have good abilities in capturing the high-frequency components of images, it tends to overlook the low-frequency information. Moreover, ResBlock usually fails to felicitously model the long-distance information which is non-trivial in reconstructing a sharp image from its blurry counterpart. In this paper, we present a Residual Fast Fourier Transform with Convolution Block (Res FFT-Conv Block), capable of capturing both long-term and short-term interactions, while integrating both low- and high-frequency residual information. Res FFT-Conv Block is a conceptually simple yet computationally efficient, and plug-and-play block, leading to remarkable performance gains in different architectures. With Res FFT-Conv Block, we further propose a Deep Residual Fourier Transformation (DeepRFT) framework, based upon MIMO-UNet, achieving state-of-the-art image deblurring performance on GoPro, HIDE, RealBlur and DPDD datasets. Experiments show our DeepRFT can boost image deblurring performance significantly (e.g., with 1.09 dB improvement in PSNR on GoPro dataset compared with MIMO-UNet), and DeepRFT+ even reaches 33.23 dB in PSNR on GoPro dataset.* 
+> **Abstract:** ** 
 
 ## Network Architecture
 <table>
