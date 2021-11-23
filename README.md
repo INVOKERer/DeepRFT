@@ -26,7 +26,7 @@ For installing, follow these intructions
 conda create -n pytorch python=3.8
 conda activate pytorch
 conda install pytorch==1.8.0 torchvision==0.9.0 torchaudio==0.8.0 cudatoolkit=11.1 -c pytorch -c conda-forge
-pip install matplotlib scikit-image opencv-python yacs joblib natsort h5py tqdm kornia ptflops
+pip install matplotlib scikit-image opencv-python yacs joblib natsort h5py tqdm kornia tensorboard ptflops
 ```
 
 Install warmup scheduler
@@ -39,11 +39,11 @@ cd pytorch-gradual-warmup-lr; python setup.py install; cd ..
 
 To test the pre-trained models of [Deblurring]() on your own images, run 
 ```
-python test_FMIMO_winx.py --weights ckpt_path_here --input_dir path_to_images --result_dir save_images_here
+python test.py --weights ckpt_path_here --input_dir path_to_images --result_dir save_images_here
 ```
 Here is an example to perform Deblurring:
 ```
-python trainFMIMO.py
+python train.py
 ```
 
 
