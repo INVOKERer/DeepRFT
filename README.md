@@ -1,4 +1,6 @@
 # Deep Residual Fourier Transformation for Single Image Deblurring
+Xintian Mao, Yiming Liu, Wei Shen, Qingli Li and Yan Wang
+
 code will be released soon
 
 **Paper**: 
@@ -63,16 +65,16 @@ Reference Code:
 - https://github.com/yangyanli/DO-Conv
 - https://github.com/swz30/MPRNet
 - https://github.com/chosj95/MIMO-UNet
-- 
+
 ## Citation
 If you use DeepRFT, please consider citing:
 
     @inproceedings{,
-        title={},
-        author={},
+        title={Deep Residual Fourier Transformation for Single Image Deblurring},
+        author={Xintian Mao, Yiming Liu, Wei Shen, Qingli Li, Yan Wang},
         booktitle={},
         year={}
     }
 
 ## Contact
-Should you have any question, please contact mxt_invoker1997@163.com or 51191214020@stu.ecnu.edu.cn
+If you have any question, please contact mxt_invoker1997@163.com or 51191214020@stu.ecnu.edu.cn
