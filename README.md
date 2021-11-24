@@ -37,11 +37,11 @@ cd pytorch-gradual-warmup-lr; python setup.py install; cd ..
 
 ## Quick Run
 
-To test the pre-trained models of [Deblurring]() on your own images, run 
+To test the pre-trained models of Deblur and Defocus [Google]() or [BaiduDisk]() on your own images, run 
 ```
-python test.py --weights ckpt_path_here --input_dir path_to_images --result_dir save_images_here
+python test.py --weights ckpt_path_here --input_dir path_to_images --result_dir save_images_here --win_size 256 # win_size=train_size
 ```
-Here is an example to perform Deblurring:
+Here is an example to train:
 ```
 python train.py
 ```
