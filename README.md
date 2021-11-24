@@ -37,7 +37,8 @@ cd pytorch-gradual-warmup-lr; python setup.py install; cd ..
 
 To test the pre-trained models of Deblur and Defocus [xxx]() or [百度网盘](https://pan.baidu.com/s/1bskTlGcX12WomCnX56ZQzQ) (提取码：vl7n) on your own images, run 
 ```
-python test.py --weights ckpt_path_here --input_dir path_to_images --result_dir save_images_here --win_size 256 # win_size=train_size
+python test.py --weights ckpt_path_here --input_dir path_to_images --result_dir save_images_here --win_size 256 # deblur
+python test.py --weights ckpt_path_here --input_dir path_to_images --result_dir save_images_here --win_size 512 # defocus
 ```
 Here is an example to train:
 ```
