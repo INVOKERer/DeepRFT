@@ -47,9 +47,6 @@ python train.py
 
 ## Results
 Experiment for image deblurring.
-
-### Image Deblurring
-
 <table>
   <tr>
     <td> <img src = "https://github.com/INVOKERer/DeepRFT/blob/main/images/psnr_params_flops.png" width="1200"> </td>
