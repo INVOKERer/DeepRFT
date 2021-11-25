@@ -76,9 +76,9 @@ If you use DeepRFT, please consider citing:
     @inproceedings{,
         title={Deep Residual Fourier Transformation for Single Image Deblurring},
         author={Xintian Mao, Yiming Liu, Wei Shen, Qingli Li, Yan Wang},
-        booktitle={},
-        year={}
+        booktitle={arXiv:2111.11745},
+        year={2021}
     }
 
 ## Contact
-If you have any question, please contact mxt_invoker1997@163.com or 51191214020@stu.ecnu.edu.cn
+If you have any question, please contact mxt_invoker1997@163.com
