@@ -100,21 +100,6 @@ class ResBlock(nn.Module):
     def forward(self, x):
         return self.main(x) + x
 
-
-def get_fft(x, dim=0):
-    x_fft = torch.fft.fftshift(torch.fft.fft2(x))
-    x_imag = x_fft.imag
-    x_real = x_fft.real
-    x_f = torch.cat([x_real, x_imag], dim=dim)
-    return x_f
-
-def get_rf(f, dim=0):
-    fft_real, fft_imag = torch.chunk(f, 2, dim=dim)
-    fftri = torch.complex(fft_real, fft_imag)
-    rf = torch.fft.ifft2(torch.fft.ifftshift(fftri))
-    return rf.real # abs(rf) # x_real # + x_imag
-
-
 class ResBlock_do(nn.Module):
     def __init__(self, out_channel):
         super(ResBlock_do, self).__init__()
