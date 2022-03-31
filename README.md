@@ -8,8 +8,6 @@
 # Deep Residual Fourier Transformation for Single Image Deblurring
 Xintian Mao, Yiming Liu, Wei Shen, Qingli Li and Yan Wang
 
-### News
-- 2021.12.5 Release DeepRFT model
 
 **Paper**: https://arxiv.org/abs/2111.11745
 
