@@ -15,7 +15,7 @@ from layers import *
 parser = argparse.ArgumentParser(description='Image Deblurring')
 parser.add_argument('--input_dir', default='./Datasets/GoPro/test/blur', type=str, help='Directory of validation images')
 parser.add_argument('--output_dir', default='./results/DeepRFT/GoPro', type=str, help='Directory of validation images')
-parser.add_argument('--weights', default='./checkpoints/Deblurring/models/DeepRFT/model_best.pth', type=str, help='Path to weights')
+parser.add_argument('--weights', default='./checkpoints/Deblurring/models/DeepRFT/model.pth', type=str, help='Path to weights')
 parser.add_argument('--gpus', default='0', type=str, help='CUDA_VISIBLE_DEVICES')
 parser.add_argument('--win_size', default=256, type=int, help='window size, [GoPro, HIDE, RealBlur]=256, [DPDD]=512')
 args = parser.parse_args()
