@@ -41,7 +41,7 @@ cd pytorch-gradual-warmup-lr; python setup.py install; cd ..
 
 ## Quick Run
 
-To test the pre-trained models of Deblur and Defocus [Google Drive](https://drive.google.com/file/d/1FoQZrbcYPGzU9xzOPI1Q1NybNUGR-ZUg/view?usp=sharing) or [百度网盘](https://pan.baidu.com/s/10DuQZiXC-Dc6jtLc9YJGbg)提取码:phws on your own images, run 
+To test the pre-trained models of Deblur and Defocus [Google Drive](https://drive.google.com/file/d/1FoQZrbcYPGzU9xzOPI1Q1NybNUGR-ZUg/view?usp=sharing) or [百度网盘](https://pan.baidu.com/s/10DuQZiXC-Dc6jtLc9YJGbg)(提取码:phws) on your own images, run 
 ```
 python test.py --weights ckpt_path_here --input_dir path_to_images --result_dir save_images_here --win_size 256 # deblur
 python test.py --weights ckpt_path_here --input_dir path_to_images --result_dir save_images_here --win_size 512 # defocus
