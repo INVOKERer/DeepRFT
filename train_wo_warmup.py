@@ -138,7 +138,7 @@ for epoch in range(start_epoch, num_epochs + 1):
 
         target_ = data[0].cuda()
         input_  = data[1].cuda()
-        target = kornia.build_pyramid(target_, 3)
+        target = kornia.geometry.transform.build_pyramid(target_, 3)
         restored = model_restoration(input_)
 
         loss_fft = criterion_fft(restored[0], target[0]) + criterion_fft(restored[1], target[1]) + criterion_fft(
