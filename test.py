@@ -19,7 +19,7 @@ parser.add_argument('--input_dir', default='./Datasets/GoPro/test/blur', type=st
 parser.add_argument('--target_dir', default='./Datasets/GoPro/test/sharp', type=str, help='Directory of validation images')
 parser.add_argument('--output_dir', default='./results/DeepRFT/GoPro', type=str, help='Directory of validation images')
 parser.add_argument('--weights', default='./checkpoints/DeepRFT/model_GoPro.pth', type=str, help='Path to weights')
-parser.add_argument('--get_psnr', default=True, type=bool, help='PSNR')
+parser.add_argument('--get_psnr', default=False, type=bool, help='PSNR')
 parser.add_argument('--gpus', default='0', type=str, help='CUDA_VISIBLE_DEVICES')
 parser.add_argument('--save_result', default=False, type=bool, help='save result')
 parser.add_argument('--win_size', default=256, type=int, help='window size, [GoPro, HIDE, RealBlur]=256, [DPDD]=512')
