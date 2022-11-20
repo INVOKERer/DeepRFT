@@ -1,21 +1,15 @@
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/deep-residual-fourier-transformation-for/deblurring-on-gopro)](https://paperswithcode.com/sota/deblurring-on-gopro?p=deep-residual-fourier-transformation-for)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/deep-residual-fourier-transformation-for/deblurring-on-hide-trained-on-gopro)](https://paperswithcode.com/sota/deblurring-on-hide-trained-on-gopro?p=deep-residual-fourier-transformation-for)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/deep-residual-fourier-transformation-for/deblurring-on-realblur-j-1)](https://paperswithcode.com/sota/deblurring-on-realblur-j-1?p=deep-residual-fourier-transformation-for)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/deep-residual-fourier-transformation-for/deblurring-on-realblur-j-trained-on-gopro)](https://paperswithcode.com/sota/deblurring-on-realblur-j-trained-on-gopro?p=deep-residual-fourier-transformation-for)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/deep-residual-fourier-transformation-for/deblurring-on-realblur-r)](https://paperswithcode.com/sota/deblurring-on-realblur-r?p=deep-residual-fourier-transformation-for)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/deep-residual-fourier-transformation-for/deblurring-on-realblur-r-trained-on-gopro)](https://paperswithcode.com/sota/deblurring-on-realblur-r-trained-on-gopro?p=deep-residual-fourier-transformation-for)
-
-# Deep Residual Fourier Transformation for Single Image Deblurring
-Xintian Mao, Yiming Liu, Wei Shen, Qingli Li and Yan Wang
 
 
-**Paper**: https://arxiv.org/abs/2111.11745
+# Intriguing Findings of Frequency Selection for Image Deblurring 
+Xintian Mao, Yiming Liu, Fengze Liu, Qingli Li, Wei Shen and Yan Wang
 
+
+**Paper**: xxx
 
 ## Network Architecture
 <table>
   <tr>
-    <td> <img src = "https://github.com/INVOKERer/DeepRFT/blob/main/images/framework.png" width="1200"> </td>
+    <td> <img src = "https://github.com/INVOKERer/DeepRFT/blob/main/images/xxx.png" width="1200"> </td>
   </tr>
   <tr>
     <td><p align="center"><b>Overall Framework of DeepRFT</b></p></td>
@@ -41,10 +35,9 @@ cd pytorch-gradual-warmup-lr; python setup.py install; cd ..
 
 ## Quick Run
 
-To test the pre-trained models of Deblur and Defocus [Google Drive](https://drive.google.com/file/d/1FoQZrbcYPGzU9xzOPI1Q1NybNUGR-ZUg/view?usp=sharing) or [百度网盘](https://pan.baidu.com/s/10DuQZiXC-Dc6jtLc9YJGbg)(提取码:phws) on your own images, run 
+To test the pre-trained models of Deblur [Google Drive](https://drive.google.com/file/d/1FoQZrbcYPGzU9xzOPI1Q1NybNUGR-ZUg/view?usp=sharing) or [百度网盘](https://pan.baidu.com/s/10DuQZiXC-Dc6jtLc9YJGbg)(提取码:phws) on your own images, run 
 ```
 python test.py --weights ckpt_path_here --input_dir path_to_images --result_dir save_images_here --win_size 256 --num_res 8 [4:small, 20:plus]# deblur
-python test.py --weights ckpt_path_here --input_dir path_to_images --result_dir save_images_here --win_size 512 --num_res 8 # defocus
 ```
 Here is an example to train:
 ```
@@ -56,7 +49,7 @@ python train.py
 Experiment for image deblurring.
 <table>
   <tr>
-    <td> <img src = "https://github.com/INVOKERer/DeepRFT/blob/main/images/psnr_params_flops.png" width="1200"> </td>
+    <td> <img src = "https://github.com/INVOKERer/DeepRFT/xxx.png" width="1200"> </td>
   </tr>
   <tr>
     <td><p align="center"><b>Deblurring on GoPro Datasets.</b></p></td>
@@ -70,13 +63,10 @@ Experiment for image deblurring.
 - https://github.com/codeslake/IFAN
 
 ## Citation
-If you use DeepRFT, please consider citing:
+If you use , please consider citing:
 
     @inproceedings{,
-        title={Deep Residual Fourier Transformation for Single Image Deblurring},
-        author={Xintian Mao, Yiming Liu, Wei Shen, Qingli Li, Yan Wang},
-        booktitle={arXiv:2111.11745},
-        year={2021}
+
     }
 
 ## Contact
