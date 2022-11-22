@@ -1,6 +1,6 @@
 
 
-# Intriguing Findings of Frequency Selection for Image Deblurring 
+# Intriguing Findings of Frequency Selection for Image Deblurring (AAAI 2023)
 Xintian Mao, Yiming Liu, Fengze Liu, Qingli Li, Wei Shen and Yan Wang
 
 
@@ -27,21 +27,16 @@ conda install pytorch==1.8.0 torchvision==0.9.0 torchaudio==0.8.0 cudatoolkit=11
 pip install matplotlib scikit-image opencv-python yacs joblib natsort h5py tqdm kornia tensorboard ptflops
 ```
 
-Install warmup scheduler
-
-```
-cd pytorch-gradual-warmup-lr; python setup.py install; cd ..
-```
 
 ## Quick Run
 
 To test the pre-trained models of Deblur [Google Drive](https://drive.google.com/file/d/1FoQZrbcYPGzU9xzOPI1Q1NybNUGR-ZUg/view?usp=sharing) or [百度网盘](https://pan.baidu.com/s/10DuQZiXC-Dc6jtLc9YJGbg)(提取码:phws) on your own images, run 
 ```
-python test.py --weights ckpt_path_here --input_dir path_to_images --result_dir save_images_here --win_size 256 --num_res 8 [4:small, 20:plus]# deblur
+python test.py 
 ```
 Here is an example to train:
 ```
-python train.py
+python
 ```
 
 
@@ -57,17 +52,23 @@ Experiment for image deblurring.
 </table>
 
 ## Reference Code:
-- https://github.com/yangyanli/DO-Conv
 - https://github.com/swz30/MPRNet
 - https://github.com/chosj95/MIMO-UNet
-- https://github.com/codeslake/IFAN
+- https://github.com/megvii-research/NAFNet
+- https://github.com/megvii-research/TLC
+- https://github.com/swz30/Restormer
 
 ## Citation
 If you use , please consider citing:
 
-    @inproceedings{,
-
-    }
+@inproceedings{wu2023contgcn,
+    title = "Intriguing Findings of Frequency Selection for Image Deblurring",
+    author = "Xintian Mao, Yiming Liu, Fengze Liu, Qingli Li, Wei Shen and Yan Wang",
+    booktitle = "Proceedings of the 37th AAAI Conference on Artificial Intelligence",
+    month = feb,
+    year = "2023",
+    address = "Washington, DC, United States"
+}
 
 ## Contact
 If you have any question, please contact mxt_invoker1997@163.com
