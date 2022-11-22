@@ -5,6 +5,14 @@
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/deep-residual-fourier-transformation-for/deblurring-on-realblur-r)](https://paperswithcode.com/sota/deblurring-on-realblur-r?p=deep-residual-fourier-transformation-for)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/deep-residual-fourier-transformation-for/deblurring-on-realblur-r-trained-on-gopro)](https://paperswithcode.com/sota/deblurring-on-realblur-r-trained-on-gopro?p=deep-residual-fourier-transformation-for)
 
+
+# Intriguing Findings of Frequency Selection for Image Deblurring (AAAI 2023)
+Xintian Mao, Yiming Liu, Fengze Liu, Qingli Li, Wei Shen and Yan Wang
+
+**Paper**: xxx
+
+# code: https://github.com/INVOKERer/DeepRFT/tree/AAAI2023
+
 # Deep Residual Fourier Transformation for Single Image Deblurring
 Xintian Mao, Yiming Liu, Wei Shen, Qingli Li and Yan Wang
 
