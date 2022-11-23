@@ -64,7 +64,7 @@ python train.py
 Experiment for image deblurring.
 <table>
   <tr>
-    <td> <img src = "https://github.com/INVOKERer/DeepRFT/blob/main/images/psnr_params_flops.png" width="1200"> </td>
+    <td> <img src = "https://github.com/INVOKERer/DeepRFT/blob/main/images/psnr_flops.png" width="1200"> </td>
   </tr>
   <tr>
     <td><p align="center"><b>Deblurring on GoPro Datasets.</b></p></td>
@@ -79,7 +79,14 @@ Experiment for image deblurring.
 
 ## Citation
 If you use DeepRFT, please consider citing:
-
+    @inproceedings{xint, 
+        title = {Intriguing Findings of Frequency Selection for Image Deblurring},
+        author = {Xintian Mao, Yiming Liu, Fengze Liu, Qingli Li, Wei Shen and Yan Wang}, 
+        booktitle = {Proceedings of the 37th AAAI Conference on Artificial Intelligence}, 
+        month = {feb},
+        year = {2023}, 
+        address = {Washington, DC, United States} 
+        }
     @inproceedings{,
         title={Deep Residual Fourier Transformation for Single Image Deblurring},
         author={Xintian Mao, Yiming Liu, Wei Shen, Qingli Li, Yan Wang},
