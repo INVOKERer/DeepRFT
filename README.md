@@ -30,7 +30,7 @@ pip install matplotlib scikit-image opencv-python yacs joblib natsort h5py tqdm 
 
 ## Quick Run
 
-To test the pre-trained models of Deblur [Google Drive](https://drive.google.com/file/d/1FoQZrbcYPGzU9xzOPI1Q1NybNUGR-ZUg/view?usp=sharing) or [百度网盘](https://pan.baidu.com/s/10DuQZiXC-Dc6jtLc9YJGbg)(提取码:phws) on your own images, run 
+To test the pre-trained models of Deblur [Google Drive](https://drive.google.com/drive/folders/1tXl9PzmZeyJprBAWUEh5N3s4213pZHXi?usp=sharing) or [百度网盘](https://pan.baidu.com/s/10DuQZiXC-Dc6jtLc9YJGbg)(提取码:phws) on your own images, run 
 ```
 python test.py 
 ```
