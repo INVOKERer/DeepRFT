@@ -41,15 +41,8 @@ python
 
 
 ## Results
-Experiment for image deblurring.
-<table>
-  <tr>
-    <td> <img src = "https://github.com/INVOKERer/DeepRFT/xxx.png" width="1200"> </td>
-  </tr>
-  <tr>
-    <td><p align="center"><b>Deblurring on GoPro Datasets.</b></p></td>
-  </tr>
-</table>
+Results on GoPro, HIDE, Realblur test sets:
+[百度网盘](https://pan.baidu.com/s/10DuQZiXC-Dc6jtLc9YJGbg)(提取码:phws)
 
 ## Reference Code:
 - https://github.com/swz30/MPRNet
