@@ -10,7 +10,7 @@ Xintian Mao, Yiming Liu, Fengze Liu, Qingli Li, Wei Shen and Yan Wang
 
 ## Quick Run
 
-To test the pre-trained models of Deblur [Google Drive](https://drive.google.com/drive/folders/1tXl9PzmZeyJprBAWUEh5N3s4213pZHXi?usp=sharing) or [百度网盘](https://pan.baidu.com/s/10DuQZiXC-Dc6jtLc9YJGbg)(提取码:phws) on your own images, run 
+To test the pre-trained models of Deblur [Google Drive](https://drive.google.com/drive/folders/1tXl9PzmZeyJprBAWUEh5N3s4213pZHXi?usp=sharing) or [百度网盘](https://pan.baidu.com/s/1OIYwCL6JxJ01e9inws3gwg)(提取码:53ph) on your own images, run 
 ```
 python MOtion_Deblurring/val.py 
 ```
