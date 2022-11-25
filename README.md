@@ -11,7 +11,7 @@ Xintian Mao, Yiming Liu, Fengze Liu, Qingli Li, Wei Shen and Yan Wang
 
 **Paper**: xxx
 
-**code**: https://github.com/DeepMed-Lab-ECNU/DeepRFT-AAAI2022
+**code**: https://github.com/DeepMed-Lab-ECNU/DeepRFT-AAAI2023
 
 # Deep Residual Fourier Transformation for Single Image Deblurring
 Xintian Mao, Yiming Liu, Wei Shen, Qingli Li and Yan Wang
