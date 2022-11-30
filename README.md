@@ -9,7 +9,7 @@
 # Intriguing Findings of Frequency Selection for Image Deblurring (AAAI 2023)
 Xintian Mao, Yiming Liu, Fengze Liu, Qingli Li, Wei Shen and Yan Wang
 
-**Paper**: xxx
+**Paper**: https://arxiv.org/abs/2111.11745
 
 **code**: https://github.com/DeepMed-Lab-ECNU/DeepRFT-AAAI2023
 
