@@ -86,7 +86,9 @@ If you use DeepRFT, please consider citing:
     booktitle = {Proceedings of the 37th AAAI Conference on Artificial Intelligence}, 
     year = {2023}
     }
+```
 or
+```
 @inproceedings{,
     title={Deep Residual Fourier Transformation for Single Image Deblurring},
     author={Xintian Mao, Yiming Liu, Wei Shen, Qingli Li, Yan Wang},
