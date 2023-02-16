@@ -6,7 +6,7 @@
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/deep-residual-fourier-transformation-for/deblurring-on-realblur-r-trained-on-gopro)](https://paperswithcode.com/sota/deblurring-on-realblur-r-trained-on-gopro?p=deep-residual-fourier-transformation-for)
 
 
-# Intriguing Findings of Frequency Selection for Image Deblurring (AAAI 2023)
+# Intriguing Findings of Frequency Selection for Image Deblurring (AAAI 2023 Oral)
 Xintian Mao, Yiming Liu, Fengze Liu, Qingli Li, Wei Shen and Yan Wang
 
 **Paper**: https://arxiv.org/abs/2111.11745
