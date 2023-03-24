@@ -1,0 +1,9 @@
+
+
+# network structures
+network_g:
+  type: DeepRFT
+  width: 32
+  num_res: 8
+  train_size: 256
+  overlap_size: 32
