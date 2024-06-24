@@ -9,7 +9,7 @@
 # Intriguing Findings of Frequency Selection for Image Deblurring (AAAI 2023 Oral)
 Xintian Mao, Yiming Liu, Fengze Liu, Qingli Li, Wei Shen and Yan Wang
 
-**Paper**: https://arxiv.org/abs/2111.11745
+**Paper**: https://arxiv.org/abs/2111.11745 (v2)
 
 **code**: https://github.com/DeepMed-Lab-ECNU/DeepRFT-AAAI2023
 
@@ -17,7 +17,7 @@ Xintian Mao, Yiming Liu, Fengze Liu, Qingli Li, Wei Shen and Yan Wang
 Xintian Mao, Yiming Liu, Wei Shen, Qingli Li and Yan Wang
 
 
-**Paper**: https://arxiv.org/abs/2111.11745
+**Paper**: https://arxiv.org/abs/2111.11745 (v1)
 
 
 ## Network Architecture
