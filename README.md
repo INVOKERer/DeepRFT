@@ -30,7 +30,7 @@ Results on GoPro, HIDE, Realblur test sets:
 ## Citation
 If you use , please consider citing:
 ```
-@inproceedings{xint2023freqsel, 
+@inproceedings{xintm2023DeepRFTv2, 
     title = {Intriguing Findings of Frequency Selection for Image Deblurring},
     author = {Xintian Mao, Yiming Liu, Fengze Liu, Qingli Li, Wei Shen and Yan Wang}, 
     booktitle = {Proceedings of the 37th AAAI Conference on Artificial Intelligence}, 
