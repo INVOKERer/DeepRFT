@@ -17,7 +17,7 @@ Xintian Mao, Yiming Liu, Fengze Liu, Qingli Li, Wei Shen and Yan Wang
 Xintian Mao, Yiming Liu, Wei Shen, Qingli Li and Yan Wang
 
 
-**Paper**: https://arxiv.org/abs/2111.11745 (v1)
+**Paper**: https://arxiv.org/abs/2111.11745v1 (v1)
 
 
 ## Network Architecture
