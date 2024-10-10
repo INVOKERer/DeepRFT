@@ -47,7 +47,7 @@ Install warmup scheduler
 cd pytorch-gradual-warmup-lr; python setup.py install; cd ..
 ```
 
-## Quick Run (Sorry for that something maybe wrong in this version of code. If you meet the performance drop, please try [branch-AAAI2023](https://github.com/INVOKERer/DeepRFT/tree/AAAI2023).)
+## Quick Run (Sorry for that something maybe wrong in this version of code. If you meet the performance drop, please try [branch-AAAI2023](https://github.com/INVOKERer/DeepRFT/tree/AAAI2023) or train the model by yourself.)
 
 To test the pre-trained models of Deblur and Defocus [Google Drive](https://drive.google.com/file/d/1FoQZrbcYPGzU9xzOPI1Q1NybNUGR-ZUg/view?usp=sharing) or [百度网盘](https://pan.baidu.com/s/10DuQZiXC-Dc6jtLc9YJGbg)(提取码:phws) on your own images, run 
 ```
