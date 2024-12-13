@@ -147,9 +147,10 @@ def imfrombytesDP(content, flag='color', float32=False):
 
 def padding(img_lq, img_gt, gt_size):
     h, w, _ = img_lq.shape
-
-    h_pad = max(0, gt_size - h)
-    w_pad = max(0, gt_size - w)
+    if not isinstance(gt_size, list):
+        gt_size = [gt_size, gt_size]
+    h_pad = max(0, gt_size[0] - h)
+    w_pad = max(0, gt_size[1] - w)
     
     if h_pad == 0 and w_pad == 0:
         return img_lq, img_gt
