@@ -80,7 +80,7 @@ Experiment for image deblurring.
 ## Citation
 If you use DeepRFT, please consider citing:
 ```
-@inproceedings{xintm2023DeepRFTv2, 
+@inproceedings{xintm2023DeepRFTv1, 
     title = {Intriguing Findings of Frequency Selection for Image Deblurring},
     author = {Xintian Mao, Yiming Liu, Fengze Liu, Qingli Li, Wei Shen and Yan Wang}, 
     booktitle = {Proceedings of the 37th AAAI Conference on Artificial Intelligence}, 
@@ -89,7 +89,7 @@ If you use DeepRFT, please consider citing:
 ```
 or
 ```
-@inproceedings{xintm2023DeepRFTv1,
+@inproceedings{xintm2023DeepRFTv0,
     title={Deep Residual Fourier Transformation for Single Image Deblurring},
     author={Xintian Mao, Yiming Liu, Wei Shen, Qingli Li, Yan Wang},
     booktitle={arXiv:2111.11745},
