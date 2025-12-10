@@ -102,3 +102,4 @@ If you have any question, please contact mxt_invoker1997@163.com
 ## Our Related Works
 - LoFormer: Local Frequency Transformer for Image Deblurring, ACM MM 2024. [Paper](https://arxiv.org/abs/2407.16993) | [Code](https://github.com/INVOKERer/LoFormer)
 - AdaRevD: Adaptive Patch Exiting Reversible Decoder Pushes the Limit of Image Deblurring, CVPR 2024. [Paper](https://arxiv.org/abs/2406.09135) | [Code](https://github.com/INVOKERer/AdaRevD)
+- DeepRFTv2: Kernel-level Learning for Image Deblurring, arXiv 2025. [Paper](https://arxiv.org/abs/2511.211325) | [Code](https://github.com/INVOKERer/DeepRFTv2)
